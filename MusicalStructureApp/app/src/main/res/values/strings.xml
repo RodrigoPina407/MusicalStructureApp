@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="album_picture">Album picture, this view if slided up or down will change albums,if slided left or right will change songs using OnSwipeTouchListener</string>
+    <string name="shuffle">SHUFFLE Button, will randomly choose the next song</string>
+    <string name="play_button">PLAY/PAUSE button, using the MediaPlayer API</string>
+    <string name="metadata_explanation">First it is necessary to scan media folder for audio files and then use the MediaMetadataRetriever to get the file\'s metadata</string>
+    <string name="media_player">MediaPlayer screen to choose the artist</string>
+    <string name="screen_song">Screen to choose the song</string>
+    <string name="screen_album">Screen to choose the album</string>
+</resources>

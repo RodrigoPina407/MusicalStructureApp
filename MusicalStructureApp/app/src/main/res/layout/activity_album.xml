@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.album">
+
+    <TextView
+        android:id="@+id/artist_text_id"
+        style="@style/music_textview" />
+
+    <TextView
+        style="@style/music_textview"
+        android:textSize="16sp"
+        android:text="@string/screen_album"/>
+
+
+    <ListView
+        android:id="@+id/album_id"
+        style="@style/music_listview" />
+</LinearLayout>
